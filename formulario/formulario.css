@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(34, 33, 31, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a i {
+    color: white;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+    padding: 1em;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #003750;
+    text-align: center;
+}
+
+.container1 {
+    max-width: xx;
+    /* Define el ancho máximo del contenedor */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
+    padding: XX;
+    /* Agrega un poco de espacio alrededor del formulario */
+    border: XX;
+    /* Agrega un borde al contenedor */
+    border-radius: XX;
+    /* Agrega bordes redondeados al contenedor */
+}
+
+.form-group label  {
+    display: block;
+    margin-bottom: 5px;
+    /* Espacio entre cada input */
+}
+.form-group input  {
+    margin-bottom: 15px;
+    
+}
+
+label {
+    margin-bottom: 5px;
+}
+.form_contenedor{
+    display: flex;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 30em;
+    /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    /* Permite redimensionar verticalmente el textarea */
+}
+
+button {
+    margin-top: 20px;
+    align-items: center;
+    width: 20em;
+    /* Coloca estilos a tu botón */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
